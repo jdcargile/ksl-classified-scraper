@@ -12288,11 +12288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jcargile/projects/ksl-classifieds-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj",
+      "projectUniqueName": "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj",
       "projectName": "ksl-classifieds-scraper",
-      "projectPath": "/Users/jcargile/projects/ksl-classifieds-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj",
+      "projectPath": "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj",
       "packagesPath": "/Users/jcargile/.nuget/packages/",
-      "outputPath": "/Users/jcargile/projects/ksl-classifieds-scraper/ksl-classifieds-scraper/obj",
+      "outputPath": "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
