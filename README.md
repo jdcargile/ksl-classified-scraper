@@ -6,3 +6,7 @@ Pull down the app, open with Visual Studio, use the following url to get JSON se
 ```
 http://localhost:5000/api/search/help
 ```
+
+This app is ready to go for Docker deployments. Reference below for installing on DigitalOcean for as cheap as $5.
+
+https://elanderson.net/2018/08/deploying-an-asp-net-core-application-to-digitalocean/
