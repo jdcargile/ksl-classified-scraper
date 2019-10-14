@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj": {}
+  },
+  "projects": {
+    "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj",
+        "projectName": "ksl-classifieds-scraper",
+        "projectPath": "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/ksl-classifieds-scraper.csproj",
+        "packagesPath": "/Users/jcargile/.nuget/packages/",
+        "outputPath": "/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/jcargile/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            },
+            "BrowseSharp": {
+              "target": "Package",
+              "version": "[0.0.7, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "SwaggerUi": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

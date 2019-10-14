@@ -24,7 +24,7 @@ namespace ksl_classifieds_scraper.Controllers
             //Grab items array from script tag and delete surround JS method text to serialize into JSON object
             var itemsScript = document.QuerySelectorAll("*").FirstOrDefault(m => m.LocalName == "script" && m.InnerHtml.Contains("window.renderSearchSection("));
             var itemsJson = itemsScript.InnerHtml.Replace("window.renderSearchSection(", "");
-            var items = itemsJson.Replace("kslBaseDomain: 'ksl.com',\n                })", "}");
+            var items = itemsJson.Replace("}                })", "}}");
             var json = JObject.Parse(items);
 
             //Determine whether there are more pages. Ksl only grabs a max of 96 items at a time.
@@ -37,7 +37,7 @@ namespace ksl_classifieds_scraper.Controllers
                 var additionalPage = await context.OpenAsync(address);
                 var additionalPageScript = document.QuerySelectorAll("*").FirstOrDefault(m => m.LocalName == "script" && m.InnerHtml.Contains("window.renderSearchSection("));
                 var additionalJson = itemsScript.InnerHtml.Replace("window.renderSearchSection(", "");
-                var additionalItems = itemsJson.Replace("kslBaseDomain: 'ksl.com',\n                })", "}");
+                var additionalItems = itemsJson.Replace("}                })", "}}");
                 var additionalItemJson = JObject.Parse(additionalItems);
                 json.Merge(additionalItemJson);
             }

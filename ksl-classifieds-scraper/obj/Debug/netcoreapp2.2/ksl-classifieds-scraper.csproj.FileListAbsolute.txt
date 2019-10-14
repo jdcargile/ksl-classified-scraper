@@ -18,7 +18,6 @@
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/bin/Debug/netcoreapp2.2/ksl-classifieds-scraper.dll
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/bin/Debug/netcoreapp2.2/ksl-classifieds-scraper.pdb
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.csprojAssemblyReference.cache
-/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.csproj.CoreCompileInputs.cache
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.RazorAssemblyInfo.cache
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.RazorAssemblyInfo.cs
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.AssemblyInfoInputs.cache
@@ -26,3 +25,6 @@
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.RazorTargetAssemblyInfo.cache
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.dll
 /Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/obj/Debug/netcoreapp2.2/ksl-classifieds-scraper.pdb
+/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/jcargile/projects/ksl-classified-scraper/ksl-classifieds-scraper/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
